@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-bottom: 120px;
+    max-width: 1320px;
+    margin: auto;
+}
+/* banner start */
+.banner{
+   background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(./img/banner-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 600px;
+   margin-top: 50px;
+   border-radius: 16px;  
+   margin-bottom: 120px;  
+}
+.b-content{
+   padding: 200px 344px;
+   text-align: center;
+   align-items: center;
+   font-family: "Merriweather", serif;
+}
+.b-content h4{
+   color: white;
+   font-size: 32px;
+   font-weight: 400;
+}
+.b-content h2{
+   color: #FFF;
+   font-size: 72px;
+   font-weight: 900;
+   line-height: 95px;
+}
+/* banner end */
+/* categories start */
+.categories{
+   
+}
+.c-content{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.c-content h1{
+    
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.c-content h5{
+    
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.c-content h3{
+    color: #070211;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.c-img{
+   display: flex;
+   justify-content: center;
+}
+.c-img img{
+    height: 500px;
+}
+.banner{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(./img/Vector\ \(1\).png);
+}
+.p-content{
+    padding: 130px 200px;
+}
+.p-content h3{
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    color: #FFF;
+    letter-spacing: 7px;
+    margin-bottom: 24px;
+}
+.p-content p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.p-content a{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFF;
+    background: #F00;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+/* categories end */
