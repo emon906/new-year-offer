@@ -38,7 +38,7 @@ main{
 /* banner end */
 /* categories start */
 .categories{
-   
+   margin-bottom: 120px;
 }
 .c-content{
     text-align: center;
@@ -113,3 +113,37 @@ main{
     border-radius: 5px;
 }
 /* categories end */
+/* information start */
+.infor{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 5px;
+}
+.i-content{
+    padding: 200px 300px;
+     font-family: "Inter", sans-serif;
+    text-align: center;
+}
+.i-content h3{
+    margin-bottom: 50px;
+     font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+.i-content a{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFF;
+    background: #F00;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.i-content span{
+    color: #F00;
+    font-size: 32px;
+    font-weight: 600;
+      line-height: 56px;
+}
+
+/* information end */
