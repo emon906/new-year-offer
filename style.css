@@ -65,8 +65,9 @@ main{
     margin-bottom: 50px;
 }
 .c-img{
-   display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
+   margin: auto;
 }
 .c-img img{
     height: 500px;
@@ -117,6 +118,7 @@ main{
 .infor{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 5px;
+    margin-bottom: 120px;
 }
 .i-content{
     padding: 200px 300px;
@@ -147,3 +149,68 @@ main{
 }
 
 /* information end */
+/* coming soon start */
+.coming-soon{
+   display: flex;
+   justify-content: space-between;
+   gap: 70px;
+}
+.c-container{
+    padding: 10px;
+}
+.c-container h4{
+    font-family: "Inter", sans-serif;
+    color: #F00;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.c-container h1{
+    font-family: "Merriweather", serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 22px;
+}
+.c-container p{
+    font-family: "Inter", sans-serif;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.s-img{
+   width: 364.844px;
+   border: 15px solid #F00;
+   border-radius: 464px;
+   padding: 20px;
+}
+.s-img img{
+   width: 364.844px;
+   height: 364.844px;
+   
+   
+
+}
+.c-content{
+   
+}
+.c-content h2{
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #F00;
+    margin-bottom: 16px;
+}
+.c-content p{
+     font-family: "Inter", sans-serif;
+     color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 43px;
+}
+.c-content img{
+
+}
+/* coming soon end */
